@@ -1,6 +1,9 @@
 " spacemacs emulation
 let mapleader = "\<space>"
 
+" turn off timeout
+set notimeout
+
 " whitespace options
 set listchars=tab:»\ ,space:·,trail:·,eol:$
 
