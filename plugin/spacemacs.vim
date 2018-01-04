@@ -38,6 +38,8 @@ nnoremap <leader>feR :source $MYVIMRC<enter>
 
 if exists(':NERDTree')
 	nnoremap <leader>ft :NERDTreeToggle<enter>
+	let g:NERDTreeDirArrowExpandable = '+'
+	let g:NERDTreeDirArrowCollapsible = '-'
 else
 	nnoremap <leader>ft :Lexplore<enter>
 endif
