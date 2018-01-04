@@ -59,3 +59,4 @@ nnoremap <leader>tw :set list!<enter>
 
 " misc
 nnoremap <leader>d dd
+nnoremap <leader>* :grep! -w <cword> *<enter>:copen<enter>

@@ -73,6 +73,7 @@ $ git clone https://github.com/ned/vim-spacemacs
 
 - <kbd>SPC sc</kbd> close search
 - <kbd>SPC sgf</kbd> grep
+- <kbd>SPC *</kbd> grep for symbol under cursor
 
 
 # Toggles
