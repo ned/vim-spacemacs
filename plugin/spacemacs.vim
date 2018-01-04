@@ -33,9 +33,14 @@ nnoremap <leader>wL <c-w>L
 " files
 nnoremap <leader>ff :edit<space>
 nnoremap <leader>fs :write<enter>
-nnoremap <leader>ft :Lexplore<enter>
 nnoremap <leader>fed :edit $MYVIMRC<enter>
 nnoremap <leader>feR :source $MYVIMRC<enter>
+
+if exists(':NERDTree')
+	nnoremap <leader>ft :NERDTreeToggle<enter>
+else
+	nnoremap <leader>ft :Lexplore<enter>
+endif
 
 " search
 nnoremap <leader>sc :nohlsearch<enter>

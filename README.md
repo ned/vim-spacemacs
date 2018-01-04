@@ -10,6 +10,14 @@ $ cd ~/.vim/pack/bundle/start
 $ git clone https://github.com/ned/vim-spacemacs
 ```
 
+# Recommended Plugins
+
+- [vim-sensible](https://github.com/tpope/vim-sensible): sensible defaults
+- [vim-commentary](https://github.com/tpope/vim-commentary): <kbd>gcc</kbd> to toggle comments
+- [vim-surround](https://github.com/tpope/vim-surround): change surrounding quotes/tags/parens
+- [vim-auto-save](https://github.com/vim-scripts/vim-auto-save): auto-save files
+- [vim-rsi](https://github.com/tpope/vim-rsi): use emacs-like bindings in insert mode
+- [NERDTree](https://github.com/scrooloose/nerdtree): better file explorer
 
 # Buffers
 
@@ -53,7 +61,7 @@ $ git clone https://github.com/ned/vim-spacemacs
 
 - <kbd>SPC ff</kbd> open file…
 - <kbd>SPC fs</kbd> save file
-- <kbd>SPC ft</kbd> file tree explorer
+- <kbd>SPC ft</kbd> file tree explorer (uses NERDTree if available)
 
 ## config
 
