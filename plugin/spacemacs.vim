@@ -7,6 +7,12 @@ set notimeout
 " whitespace options
 set listchars=tab:»\ ,space:·,trail:·,eol:$
 
+if executable('ag')
+	" use ag if available
+	set grepprg=ag\ --vimgrep\ $*
+	set grepformat=%f:%l:%c:%m
+endif
+
 " buffers
 nnoremap <leader>bb :buffers<enter>:buffer<space>
 nnoremap <leader>bn :bnext<enter>
