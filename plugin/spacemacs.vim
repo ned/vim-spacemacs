@@ -30,6 +30,7 @@ nnoremap <leader>wh <c-w>h
 nnoremap <leader>wj <c-w>j
 nnoremap <leader>wk <c-w>k
 nnoremap <leader>wl <c-w>l
+nnoremap <leader>w<tab> <c-w><c-p>
 
 nnoremap <leader>w<left> <c-w>h
 nnoremap <leader>w<down> <c-w>j

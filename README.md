@@ -46,6 +46,7 @@ $ git clone https://github.com/ned/vim-spacemacs
 - <kbd>SPC w j</kbd> go down (or <kbd>SPC w DOWN</kbd>)
 - <kbd>SPC w k</kbd> go up (or <kbd>SPC w UP</kbd>)
 - <kbd>SPC w l</kbd> go right (or <kbd>SPC w RIGHT</kbd>)
+- <kbd>SPC w TAB</kbd> toggle most recent window
 
 ## move window
 
