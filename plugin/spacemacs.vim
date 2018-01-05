@@ -42,6 +42,16 @@ nnoremap <leader>wJ <c-w>J
 nnoremap <leader>wK <c-w>K
 nnoremap <leader>wL <c-w>L
 
+nnoremap <leader>1 1<c-w><c-w>
+nnoremap <leader>2 2<c-w><c-w>
+nnoremap <leader>3 3<c-w><c-w>
+nnoremap <leader>4 4<c-w><c-w>
+nnoremap <leader>5 5<c-w><c-w>
+nnoremap <leader>6 6<c-w><c-w>
+nnoremap <leader>7 7<c-w><c-w>
+nnoremap <leader>8 8<c-w><c-w>
+nnoremap <leader>9 9<c-w><c-w>
+
 " files
 nnoremap <leader>ff :edit<space>
 nnoremap <leader>fs :write<enter>

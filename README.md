@@ -48,6 +48,8 @@ $ git clone https://github.com/ned/vim-spacemacs
 - <kbd>SPC w l</kbd> go right (or <kbd>SPC w RIGHT</kbd>)
 - <kbd>SPC w TAB</kbd> toggle most recent window
 
+- <kbd>SPC 1..9</kbd> switch to window by number
+
 ## move window
 
 - <kbd>SPC w H</kbd> move window left
