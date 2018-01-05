@@ -31,6 +31,11 @@ nnoremap <leader>wj <c-w>j
 nnoremap <leader>wk <c-w>k
 nnoremap <leader>wl <c-w>l
 
+nnoremap <leader>w<left> <c-w>h
+nnoremap <leader>w<down> <c-w>j
+nnoremap <leader>w<up> <c-w>k
+nnoremap <leader>w<right> <c-w>l
+
 nnoremap <leader>wH <c-w>H
 nnoremap <leader>wJ <c-w>J
 nnoremap <leader>wK <c-w>K

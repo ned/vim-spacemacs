@@ -42,10 +42,10 @@ $ git clone https://github.com/ned/vim-spacemacs
 
 ## switch window
 
-- <kbd>SPC wh</kbd> go left
-- <kbd>SPC wj</kbd> go down
-- <kbd>SPC wk</kbd> go up
-- <kbd>SPC wl</kbd> go right
+- <kbd>SPC wh</kbd> go left (or <kbd>SPC w LEFT</kbd>)
+- <kbd>SPC wj</kbd> go down (or <kbd>SPC w DOWN</kbd>)
+- <kbd>SPC wk</kbd> go up (or <kbd>SPC w UP</kbd>)
+- <kbd>SPC wl</kbd> go right (or <kbd>SPC w RIGHT</kbd>)
 
 ## move window
 
