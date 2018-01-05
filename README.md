@@ -23,64 +23,64 @@ $ git clone https://github.com/ned/vim-spacemacs
 
 ## open and close buffers
 
-- <kbd>SPC bb</kbd> switch to buffer…
-- <kbd>SPC bd</kbd> delete buffer
+- <kbd>SPC b b</kbd> switch to buffer…
+- <kbd>SPC b d</kbd> delete buffer
 
 ## switch buffers
 - <kbd>SPC TAB</kbd> toggle most recent buffer
-- <kbd>SPC bn</kbd> next buffer
-- <kbd>SPC bp</kbd> previous buffer
+- <kbd>SPC b n</kbd> next buffer
+- <kbd>SPC b p</kbd> previous buffer
 
 
 # Windows
 
 ## open and close windows
 
-- <kbd>SPC ws</kbd> split
-- <kbd>SPC wv</kbd> vertical split
-- <kbd>SPC wc</kbd> close window
+- <kbd>SPC w s</kbd> split
+- <kbd>SPC w v</kbd> vertical split
+- <kbd>SPC w c</kbd> close window
 
 ## switch window
 
-- <kbd>SPC wh</kbd> go left (or <kbd>SPC w LEFT</kbd>)
-- <kbd>SPC wj</kbd> go down (or <kbd>SPC w DOWN</kbd>)
-- <kbd>SPC wk</kbd> go up (or <kbd>SPC w UP</kbd>)
-- <kbd>SPC wl</kbd> go right (or <kbd>SPC w RIGHT</kbd>)
+- <kbd>SPC w h</kbd> go left (or <kbd>SPC w LEFT</kbd>)
+- <kbd>SPC w j</kbd> go down (or <kbd>SPC w DOWN</kbd>)
+- <kbd>SPC w k</kbd> go up (or <kbd>SPC w UP</kbd>)
+- <kbd>SPC w l</kbd> go right (or <kbd>SPC w RIGHT</kbd>)
 
 ## move window
 
-- <kbd>SPC wH</kbd> move window left
-- <kbd>SPC wJ</kbd> move window down
-- <kbd>SPC wK</kbd> move window up
-- <kbd>SPC wL</kbd> move window right
+- <kbd>SPC w H</kbd> move window left
+- <kbd>SPC w J</kbd> move window down
+- <kbd>SPC w K</kbd> move window up
+- <kbd>SPC w L</kbd> move window right
 
 
 # Files
 
 ## open and close files
 
-- <kbd>SPC ff</kbd> open file…
-- <kbd>SPC fs</kbd> save file
-- <kbd>SPC ft</kbd> file tree explorer (uses NERDTree if available)
+- <kbd>SPC f f</kbd> open file…
+- <kbd>SPC f s</kbd> save file
+- <kbd>SPC f t</kbd> file tree explorer (uses NERDTree if available)
 
 ## config
 
-- <kbd>SPC fed</kbd> open vimrc
-- <kbd>SPC feR</kbd> reload vimrc
+- <kbd>SPC f e d</kbd> open vimrc
+- <kbd>SPC f e R</kbd> reload vimrc
 
 
 # Search
 
-- <kbd>SPC sc</kbd> close search
-- <kbd>SPC sgf</kbd> grep
+- <kbd>SPC s c</kbd> close search
+- <kbd>SPC s g f</kbd> grep
 - <kbd>SPC *</kbd> grep for symbol under cursor
 
 
 # Toggles
 
-- <kbd>SPC tw</kbd> toggle whitespace indicators
+- <kbd>SPC t w</kbd> toggle whitespace indicators
 
 
 # Misc
 
-- <kbd>SPC d dd</kbd> delete current line
+- <kbd>SPC d</kbd> delete current line
