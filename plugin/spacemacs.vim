@@ -24,6 +24,8 @@ nnoremap <leader><tab> <c-^>
 nnoremap <leader>ws <c-w>s
 nnoremap <leader>wv <c-w>v
 
+nnoremap <leader>w= <c-w>=
+
 nnoremap <leader>wc <c-w>q
 
 nnoremap <leader>wh <c-w>h
