@@ -26,7 +26,7 @@ nnoremap <leader>wv <c-w>v
 
 nnoremap <leader>w= <c-w>=
 
-nnoremap <leader>wc <c-w>q
+nnoremap <leader>wd <c-w>q
 
 nnoremap <leader>wh <c-w>h
 nnoremap <leader>wj <c-w>j
