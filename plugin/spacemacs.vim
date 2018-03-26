@@ -25,6 +25,8 @@ nnoremap <leader>ws <c-w>s
 nnoremap <leader>wv <c-w>v
 
 nnoremap <leader>w= <c-w>=
+" FIXME: should maximize horizontally...?
+nnoremap <leader>w_ <c-w>_
 
 nnoremap <leader>wd <c-w>q
 

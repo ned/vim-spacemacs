@@ -40,6 +40,7 @@ $ git clone https://github.com/ned/vim-spacemacs
 - <kbd>SPC w v</kbd> vertical split
 - <kbd>SPC w d</kbd> delete window
 - <kbd>SPC w =</kbd> balance window sizes
+- <kbd>SPC w _</kbd> maximise window
 
 ## switch window
 
