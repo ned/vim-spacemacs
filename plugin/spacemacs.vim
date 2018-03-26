@@ -7,11 +7,31 @@ set notimeout
 " whitespace options
 set listchars=tab:»\ ,space:·,trail:·,eol:$
 
+set wildmenu
+set wildmode=longest:list,full
+set wildignorecase
+
+set wildignore+=*.o,*.obj
+set wildignore+=*.dyn_hi,*.dyn_o
+
+" include current directory and subdirectories in search path
+" set path+=**
+set path=**
+
+" " better case matches
+" set ignorecase
+" set smartcase
+
 if executable('ag')
 	" use ag if available
 	set grepprg=ag\ --vimgrep\ $*
 	set grepformat=%f:%l:%c:%m
+elseif executable('grep')
+	" don't search binaries
+	set grepprg+=\ -rI
 endif
+
+" search function
 
 " buffers
 nnoremap <leader>bb :buffers<enter>:buffer<space>
