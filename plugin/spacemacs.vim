@@ -93,9 +93,16 @@ endif
 " search
 nnoremap <leader>sc :nohlsearch<enter>
 nnoremap <leader>sgf :grep<space>
+nnoremap <leader>/ :grep<space>
 
 " toggles
 nnoremap <leader>tw :set list!<enter>
+
+" project
+nnoremap <leader>pp :cd<space>
+" note: this doesn't look for the project root, it just uses the current
+" directory (sadly)
+nnoremap <leader>pf :find *
 
 " misc
 nnoremap <leader>d dd
