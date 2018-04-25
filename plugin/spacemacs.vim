@@ -91,7 +91,7 @@ else
 endif
 
 " search
-nnoremap <leader>sc :nohlsearch<enter>
+nnoremap <leader>sc :nohlsearch<CR>:cclose<enter>
 nnoremap <leader>sgf :grep<space>
 nnoremap <leader>/ :grep<space>
 
