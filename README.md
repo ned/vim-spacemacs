@@ -2,6 +2,9 @@
 
 [Spacemacs](http://spacemacs.org)-like keybindings for [vim](http://vim.org).
 
+This is just a bunch of key bindings and some changes to the default config.
+If you want something more like Spacemacs, with layers etc., you might prefer [SpaceVim](https://github.com/SpaceVim/SpaceVim).
+
 # Install
 
 ```
