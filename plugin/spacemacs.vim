@@ -4,6 +4,9 @@ let mapleader = "\<space>"
 " turn off timeout
 set notimeout
 
+" always show menu even if only one completion is available
+set completeopt=menuone
+
 " whitespace options
 set listchars=tab:»\ ,space:·,trail:·,eol:$
 

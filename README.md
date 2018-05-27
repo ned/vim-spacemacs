@@ -90,6 +90,23 @@ $ git clone https://github.com/ned/vim-spacemacs
 - <kbd>SPC t w</kbd> toggle whitespace indicators
 
 
+# Completion
+
+These are just Vim default bindings, but worth mentioning
+
+- <kbd>^n</kbd> next completion (or <kbd>Down</kbd>)
+- <kbd>^p</kbd> previous completion (or <kbd>Up</kbd>)
+- <kbd>^y</kbd> (yes) select and insert current completion
+- <kbd>^e</kbd> (end) cancel completion
+
+where <kbd>^</kbd> denotes holding the Control key down.
+
+The <kbd>Enter</kbd> key is a bit weird.
+It will insert a line break normally, but if you use the arrow keys to select a completion then <kbd>Enter</kbd> will insert it.
+
+See `:help ins-completion` for more details.
+
+
 # Misc
 
 - <kbd>SPC d</kbd> delete current line
