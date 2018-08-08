@@ -105,7 +105,13 @@ nnoremap <leader>tw :set list!<enter>
 nnoremap <leader>pp :cd<space>
 " note: this doesn't look for the project root, it just uses the current
 " directory (sadly)
-nnoremap <leader>pf :find *
+if exists(':FZF')
+	nnoremap <leader>pf :FZF<enter>
+elseif exists(':CtrlP')
+	nnoremap <leader>pf :CtrlP<enter>
+else
+	nnoremap <leader>pf :find *
+endif
 
 " misc
 nnoremap <leader>d dd

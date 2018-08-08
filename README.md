@@ -82,7 +82,7 @@ $ git clone https://github.com/ned/vim-spacemacs
 - <kbd>SPC s c</kbd> close search
 - <kbd>SPC /</kbd> grep (or <kbd>SPC s g f</kbd>)
 - <kbd>SPC *</kbd> grep for symbol under cursor
-- <kbd>SPC p f</kbd> Find file (within project)
+- <kbd>SPC p f</kbd> Find file (uses [fzf](https://github.com/junegunn/fzf) or [CtrlP](https://github.com/kien/ctrlp.vim) if available)
 
 
 # Toggles
